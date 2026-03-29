@@ -1,20 +1,25 @@
-# Contributing
+# Contributing to fishwww
 
-Thank you for your interest in contributing to this project!
+Thank you for your interest in contributing! Here's how to get started:
 
 ## How to Contribute
 
-1. Fork the repository
-2. Create a new branch for your feature or fix
-3. Make your changes with clear, descriptive commits
-4. Open a pull request describing what you changed and why
+1. **Fork & Branch** — Fork the repository and create a new branch for your changes.
+2. **Commits** — Write clear, descriptive commit messages that explain *what* and *why*.
+3. **Testing** — Make sure your changes work as expected before submitting.
+4. **Pull Request** — Open a pull request against the `main` branch with a summary of your changes.
 
 ## Code Style
 
-- Follow existing conventions in the codebase
-- Write clear commit messages
-- Add tests where applicable
+- Follow the existing code conventions used in the project.
+- Keep changes focused and avoid unrelated edits in a single PR.
 
 ## Reporting Issues
 
-Please open an issue with a clear title and description of the problem, including steps to reproduce if applicable.
+If you find a bug or have a feature request, please open an issue and include as much detail as possible (steps to reproduce, expected vs actual behaviour, environment info, etc.).
+
+## License
+
+This repository does not currently include a LICENSE file, so no specific open-source license has been selected yet.
+
+By contributing, you grant the project maintainers a perpetual, worldwide, non-exclusive right to use, modify, and distribute your contributions as part of this project and its documentation, unless otherwise agreed in writing.
