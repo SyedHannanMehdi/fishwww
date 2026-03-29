@@ -1,11 +1,15 @@
-# Solution for Issue #11 — 242421
+# Solution
 
-This pull request addresses issue #11 in the fishwww repository.
+This pull request addresses issue #11 in this repository.
+
+## Summary
+
+Added solution documentation for issue #11 (242421).
 
 ## Changes
 
-- Added solution documentation for issue #11.
+- Added `solution/README.md` to document the solution for the referenced issue.
 
-## Reference
+## Issue Reference
 
-Closes #11
+See issue #11.
