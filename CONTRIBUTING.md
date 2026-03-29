@@ -1,34 +1,41 @@
 # Contributing to fishwww
 
-Thank you for your interest in contributing! 🎉
+Thank you for your interest in contributing! Here's how to get started.
 
 ## Getting Started
 
-1. **Fork** the repository and clone your fork locally.
-2. Create a new branch for your change:
+1. **Fork** the repository on GitHub.
+2. **Clone** your fork locally:
    ```bash
-   git checkout -b feat/your-feature-name
+   git clone https://github.com/<your-username>/fishwww.git
+   cd fishwww
    ```
-3. Make your changes, following the code style of the existing codebase.
-4. Commit your changes with a clear, descriptive message.
-5. Push to your fork and **open a Pull Request** against `main`.
+3. **Create a branch** for your changes:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
 
-## Pull Request Guidelines
+## Making Changes
 
-- Keep PRs focused — one feature or fix per PR.
-- Provide a clear description of *what* changed and *why*.
-- Reference related issues in the PR body (e.g. `Closes #21`).
-- Ensure all existing tests pass before submitting.
+- Keep changes focused and scoped to a single concern per PR.
+- Follow the existing code style and conventions.
+- Add or update tests where appropriate.
+- Ensure all existing tests still pass before submitting.
 
-## Code Style
+## Submitting a Pull Request
 
-- Follow the existing formatting conventions in the project.
-- Write self-documenting code; add comments only where the logic is non-obvious.
+1. Push your branch to your fork:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+2. Open a Pull Request against the `main` branch of this repository.
+3. Describe **what** you changed and **why** in the PR description.
+4. Reference any related issues (e.g. `Closes #21`).
 
-## Reporting Issues
+## Code of Conduct
 
-If you find a bug or have a feature request, please [open an issue](../../issues/new) with as much detail as possible.
+Be respectful, constructive, and collaborative. We welcome contributions from everyone.
 
-## License
+## Questions?
 
-By contributing, you agree that your contributions will be licensed under the same license as this project.
+Open an issue and we'll be happy to help.
